@@ -1,0 +1,63 @@
+.contact{
+	text-align:center;
+	padding:1em;
+}
+h1{
+
+}
+form{
+	display:grid;
+	flex-flow:column wrap;
+	align-content:center;
+	margin:1em;
+	background-image:url(abstract-3.jpg); /*https://www.freepik.com/free-vector/blue-wavy-abstract-background_6373480.htm*/
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+fieldset{
+	margin:auto;
+	width:auto;
+	border:1em ridge #808080;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	padding:10px;
+}
+legend {
+	padding: 5px;
+	margin: 1em;
+	border: 0.5em solid #2b2b2b;
+	font-size:25px;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input{
+	width:100%;
+	margin-bottom:1em;
+}
+#FName, #LName, #EMail, #MPhone, #File {
+	margin-bottom: 1em;
+	margin-top: 1em;
+	height: 20px;
+}
+#File{
+	width:auto;
+}
+#MComments {
+	margin-top: 1em;
+}
+textarea {
+	width: 100%;
+	overflow-y: auto;
+	resize: none;
+}
+.caption-fields{
+	margin:0;
+}
+#Reset, #Submit{
+	font-size:100%;
+	text-transform:uppercase;
+	float:right;
+	padding:5px;
+	margin:0.5em;
+	width:auto;
+}

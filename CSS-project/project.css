@@ -1,0 +1,27 @@
+p{
+	text-align:justify;
+	text-justify:inter-word;
+}
+.project-title{
+	text-align:center;
+}
+.p1-picture, .p1-video{
+	display: flex;
+	flex-direction: row;
+	border: 0.3em solid #410000;
+	box-shadow: 1px 2px 2px #333333;
+	padding: 10px 15px 10px 15px;
+}
+img, video{
+	margin:5px auto 5px auto;
+}
+#p1-description, #p1-challenges, #p1-conclusion {
+	font-family: Stencil Std, 'fantasy';
+	text-shadow: 1px 1px 1px #FFF;
+}
+.p1-description, .p1-challenges, .p1-conclusion {
+	font-family: 'Inder', sans-serif;
+	font-style: oblique;
+	line-height: 28px;
+	margin-bottom: 15px;
+}

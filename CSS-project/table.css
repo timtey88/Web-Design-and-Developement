@@ -1,0 +1,37 @@
+.table1{
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	border-collapse:collapse;
+	width:100%;
+}
+.table1 th{
+	text-transform:uppercase;
+	border:1px solid #DDDDDD;
+	padding:12px 5px 12px 5px;
+	background-color:#0099CC;
+	font-size:150%;
+}
+.table1 td{
+	border:1px solid #DDDDDD;
+	padding:10px;
+}
+.table1 tr:nth-child(even){
+	background-color:#CCFFFF;
+}
+.table1 tr:nth-child(odd){
+	background-color:#99CCFF;
+}
+.table1 tr:hover{
+	background-color:#CC66FF;
+}
+.column1{
+	text-align:center;
+}
+.column2{
+	
+}
+.column3{
+	text-align:center;
+}
+.column4{
+	text-align:center;
+}
